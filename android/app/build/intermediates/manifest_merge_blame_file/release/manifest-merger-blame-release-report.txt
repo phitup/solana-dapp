@@ -1,0 +1,106 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mysolanadapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/phitup/Desktop/MySolanaDapp/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/phitup/Desktop/MySolanaDapp/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/phitup/Desktop/MySolanaDapp/android/app/src/main/AndroidManifest.xml:3:5-67
+11-->/Users/phitup/Desktop/MySolanaDapp/android/app/src/main/AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.solanamobile:mobile-wallet-adapter-clientlib:1.0.5] /Users/phitup/.gradle/caches/transforms-3/5c20a8a7ff6b2ac41930f740ff629543/transformed/jetified-mobile-wallet-adapter-clientlib-1.0.5/AndroidManifest.xml:11:5-79
+12-->[com.solanamobile:mobile-wallet-adapter-clientlib:1.0.5] /Users/phitup/.gradle/caches/transforms-3/5c20a8a7ff6b2ac41930f740ff629543/transformed/jetified-mobile-wallet-adapter-clientlib-1.0.5/AndroidManifest.xml:11:22-76
+13
+14    <queries>
+14-->[com.solanamobile:mobile-wallet-adapter-clientlib:1.0.5] /Users/phitup/.gradle/caches/transforms-3/5c20a8a7ff6b2ac41930f740ff629543/transformed/jetified-mobile-wallet-adapter-clientlib-1.0.5/AndroidManifest.xml:13:5-23:15
+15
+16        <!-- Support querying whether an app with the wallet endpoint role is available -->
+17        <intent>
+17-->[com.solanamobile:mobile-wallet-adapter-clientlib:1.0.5] /Users/phitup/.gradle/caches/transforms-3/5c20a8a7ff6b2ac41930f740ff629543/transformed/jetified-mobile-wallet-adapter-clientlib-1.0.5/AndroidManifest.xml:16:9-22:18
+18            <action android:name="android.intent.action.VIEW" />
+18-->[com.solanamobile:mobile-wallet-adapter-clientlib:1.0.5] /Users/phitup/.gradle/caches/transforms-3/5c20a8a7ff6b2ac41930f740ff629543/transformed/jetified-mobile-wallet-adapter-clientlib-1.0.5/AndroidManifest.xml:17:13-65
+18-->[com.solanamobile:mobile-wallet-adapter-clientlib:1.0.5] /Users/phitup/.gradle/caches/transforms-3/5c20a8a7ff6b2ac41930f740ff629543/transformed/jetified-mobile-wallet-adapter-clientlib-1.0.5/AndroidManifest.xml:17:21-62
+19
+20            <category android:name="android.intent.category.BROWSABLE" />
+20-->[com.solanamobile:mobile-wallet-adapter-clientlib:1.0.5] /Users/phitup/.gradle/caches/transforms-3/5c20a8a7ff6b2ac41930f740ff629543/transformed/jetified-mobile-wallet-adapter-clientlib-1.0.5/AndroidManifest.xml:19:13-74
+20-->[com.solanamobile:mobile-wallet-adapter-clientlib:1.0.5] /Users/phitup/.gradle/caches/transforms-3/5c20a8a7ff6b2ac41930f740ff629543/transformed/jetified-mobile-wallet-adapter-clientlib-1.0.5/AndroidManifest.xml:19:23-71
+21
+22            <data android:scheme="solana-wallet" />
+22-->[com.solanamobile:mobile-wallet-adapter-clientlib:1.0.5] /Users/phitup/.gradle/caches/transforms-3/5c20a8a7ff6b2ac41930f740ff629543/transformed/jetified-mobile-wallet-adapter-clientlib-1.0.5/AndroidManifest.xml:21:13-52
+22-->[com.solanamobile:mobile-wallet-adapter-clientlib:1.0.5] /Users/phitup/.gradle/caches/transforms-3/5c20a8a7ff6b2ac41930f740ff629543/transformed/jetified-mobile-wallet-adapter-clientlib-1.0.5/AndroidManifest.xml:21:19-49
+23        </intent>
+24    </queries>
+25
+26    <application
+26-->/Users/phitup/Desktop/MySolanaDapp/android/app/src/main/AndroidManifest.xml:5:5-24:19
+27        android:name="com.mysolanadapp.MainApplication"
+27-->/Users/phitup/Desktop/MySolanaDapp/android/app/src/main/AndroidManifest.xml:6:7-38
+28        android:allowBackup="false"
+28-->/Users/phitup/Desktop/MySolanaDapp/android/app/src/main/AndroidManifest.xml:10:7-34
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.7.0] /Users/phitup/.gradle/caches/transforms-3/67edc63c2afe640b384eea08595a0f03/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+30        android:icon="@mipmap/ic_launcher"
+30-->/Users/phitup/Desktop/MySolanaDapp/android/app/src/main/AndroidManifest.xml:8:7-41
+31        android:label="@string/app_name"
+31-->/Users/phitup/Desktop/MySolanaDapp/android/app/src/main/AndroidManifest.xml:7:7-39
+32        android:roundIcon="@mipmap/ic_launcher_round"
+32-->/Users/phitup/Desktop/MySolanaDapp/android/app/src/main/AndroidManifest.xml:9:7-52
+33        android:testOnly="true"
+34        android:theme="@style/AppTheme" >
+34-->/Users/phitup/Desktop/MySolanaDapp/android/app/src/main/AndroidManifest.xml:11:7-38
+35        <activity
+35-->/Users/phitup/Desktop/MySolanaDapp/android/app/src/main/AndroidManifest.xml:12:7-23:18
+36            android:name="com.mysolanadapp.MainActivity"
+36-->/Users/phitup/Desktop/MySolanaDapp/android/app/src/main/AndroidManifest.xml:13:9-37
+37            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+37-->/Users/phitup/Desktop/MySolanaDapp/android/app/src/main/AndroidManifest.xml:15:9-118
+38            android:exported="true"
+38-->/Users/phitup/Desktop/MySolanaDapp/android/app/src/main/AndroidManifest.xml:18:9-32
+39            android:label="@string/app_name"
+39-->/Users/phitup/Desktop/MySolanaDapp/android/app/src/main/AndroidManifest.xml:14:9-41
+40            android:launchMode="singleTask"
+40-->/Users/phitup/Desktop/MySolanaDapp/android/app/src/main/AndroidManifest.xml:16:9-40
+41            android:windowSoftInputMode="adjustResize" >
+41-->/Users/phitup/Desktop/MySolanaDapp/android/app/src/main/AndroidManifest.xml:17:9-51
+42            <intent-filter>
+42-->/Users/phitup/Desktop/MySolanaDapp/android/app/src/main/AndroidManifest.xml:19:9-22:25
+43                <action android:name="android.intent.action.MAIN" />
+43-->/Users/phitup/Desktop/MySolanaDapp/android/app/src/main/AndroidManifest.xml:20:13-65
+43-->/Users/phitup/Desktop/MySolanaDapp/android/app/src/main/AndroidManifest.xml:20:21-62
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->/Users/phitup/Desktop/MySolanaDapp/android/app/src/main/AndroidManifest.xml:21:13-73
+45-->/Users/phitup/Desktop/MySolanaDapp/android/app/src/main/AndroidManifest.xml:21:23-70
+46            </intent-filter>
+47        </activity>
+48
+49        <provider
+49-->[androidx.emoji2:emoji2:1.0.0] /Users/phitup/.gradle/caches/transforms-3/3e1c01bbb7bc0b121489c93a584813f4/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+50            android:name="androidx.startup.InitializationProvider"
+50-->[androidx.emoji2:emoji2:1.0.0] /Users/phitup/.gradle/caches/transforms-3/3e1c01bbb7bc0b121489c93a584813f4/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+51            android:authorities="com.mysolanadapp.androidx-startup"
+51-->[androidx.emoji2:emoji2:1.0.0] /Users/phitup/.gradle/caches/transforms-3/3e1c01bbb7bc0b121489c93a584813f4/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+52            android:exported="false" >
+52-->[androidx.emoji2:emoji2:1.0.0] /Users/phitup/.gradle/caches/transforms-3/3e1c01bbb7bc0b121489c93a584813f4/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+53            <meta-data
+53-->[androidx.emoji2:emoji2:1.0.0] /Users/phitup/.gradle/caches/transforms-3/3e1c01bbb7bc0b121489c93a584813f4/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+54                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+54-->[androidx.emoji2:emoji2:1.0.0] /Users/phitup/.gradle/caches/transforms-3/3e1c01bbb7bc0b121489c93a584813f4/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+55                android:value="androidx.startup" />
+55-->[androidx.emoji2:emoji2:1.0.0] /Users/phitup/.gradle/caches/transforms-3/3e1c01bbb7bc0b121489c93a584813f4/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+56            <meta-data
+56-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/phitup/.gradle/caches/transforms-3/0fa9ae05a4727ffee4fdcb4f35daa273/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+57                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+57-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/phitup/.gradle/caches/transforms-3/0fa9ae05a4727ffee4fdcb4f35daa273/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+58                android:value="androidx.startup" />
+58-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/phitup/.gradle/caches/transforms-3/0fa9ae05a4727ffee4fdcb4f35daa273/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+59        </provider>
+60    </application>
+61
+62</manifest>
